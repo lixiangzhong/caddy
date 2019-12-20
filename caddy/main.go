@@ -21,8 +21,6 @@ package main
 
 import "github.com/caddyserver/caddy/caddy/caddymain"
 
-var run = caddymain.Run // replaced for tests
-
 func main() {
-	run()
+	caddymain.Run()
 }
