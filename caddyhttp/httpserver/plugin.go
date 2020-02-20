@@ -645,6 +645,7 @@ var directives = []string{
 	"proxyprotocol", // github.com/mastercactapus/caddy-proxyprotocol
 
 	// directives that add middleware to the stack
+	"sky",
 	"locale", // github.com/simia-tech/caddy-locale
 	"log",
 	"cache", // github.com/nicolasazrak/caddy-cache
@@ -659,6 +660,7 @@ var directives = []string{
 	"filter",       // github.com/echocat/caddy-filter
 	"ipfilter",     // github.com/pyed/ipfilter
 	"ratelimit",    // github.com/xuqingfeng/caddy-rate-limit
+	"xlimits",      // xlimits
 	"recaptcha",    // github.com/defund/caddy-recaptcha
 	"expires",      // github.com/epicagency/caddy-expires
 	"forwardproxy", // github.com/caddyserver/forwardproxy
@@ -685,6 +687,7 @@ var directives = []string{
 	"prometheus", // github.com/miekg/caddy-prometheus
 	"templates",
 	"proxy",
+	"xproxy", // xproxy
 	"pubsub", // github.com/jung-kurt/caddy-pubsub
 	"fastcgi",
 	"cgi", // github.com/jung-kurt/caddy-cgi
@@ -701,9 +704,7 @@ var directives = []string{
 	"restic",    // github.com/restic/caddy
 	"wkd",       // github.com/emersion/caddy-wkd
 	"dyndns",    // github.com/linkonoid/caddy-dyndns
-	"xproxy",
-	"xlimits",
-	"sky",
+
 }
 
 const (
