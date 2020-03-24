@@ -656,6 +656,7 @@ var directives = []string{
 	"header",
 	"geoip", // github.com/kodnaplakal/caddy-geoip
 	"errors",
+	"shield5s",
 	"authz",        // github.com/casbin/caddy-authz
 	"filter",       // github.com/echocat/caddy-filter
 	"ipfilter",     // github.com/pyed/ipfilter
