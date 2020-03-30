@@ -169,8 +169,7 @@ selectwriter:
 		}
 	}
 
-	l.Logger = log.New(l.writer, "", log.Flags())
-
+	l.Logger = log.New(l.writer, "", log.LstdFlags)
 	return nil
 
 }
