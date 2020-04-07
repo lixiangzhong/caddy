@@ -648,6 +648,7 @@ var directives = []string{
 	"sky",
 	"locale", // github.com/simia-tech/caddy-locale
 	"log",
+	"xlog",
 	"cache", // github.com/nicolasazrak/caddy-cache
 	"rewrite",
 	"ext",
